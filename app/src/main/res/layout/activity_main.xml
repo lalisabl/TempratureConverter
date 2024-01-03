@@ -51,4 +51,11 @@
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
         android:layout_marginTop="16dp" />
+    <fragment
+        android:id="@+id/myFragment"
+        android:name="com.example.tempratureconveter.NewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewResult"
+        android:layout_marginTop="16dp"/>
 </GridLayout>
